@@ -1,0 +1,31 @@
+.template, .template2, .product_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.template div, .template2 div, .product_card div{
+    width: 18%;
+    background: peachpuff;
+    margin: 3px;
+}
+
+.photo-box, .product_image {
+    width: 95%;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product_image {
+    width: 200px;
+    height: 200px;
+
+}
+
